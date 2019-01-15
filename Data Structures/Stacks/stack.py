@@ -11,7 +11,7 @@ class Stack(object):
         return str(self.stack)
 
     def push(self, data):
-        if len(self.stack) >= self.limit:
+        if len(self.stack) >= self.limit: #checking stack overflow condition
             raise StackOverflowError
         self.stack.append(data)
 
