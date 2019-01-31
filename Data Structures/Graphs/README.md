@@ -9,7 +9,7 @@ A graph is a data structure that consists of 2 components.
 2. Adjacency List
 
 ## Adjacency Matrix
-It is a 2D array of size V x V (V = Number of vertices)
+It is a 2D array of size V x V  (V = Number of vertices)
 
 - M[i][j] = 1 if pair(i, j) exists
 - M[i][j] = 0 otherwise
