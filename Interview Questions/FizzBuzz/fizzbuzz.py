@@ -1,13 +1,12 @@
 for input in range(1,100): #in this case complexity would be 0(1)
 
-	if input % 3 == 0 and input % 5 == 0:
-		print('FizzBuzz')
-	elif input % 3 == 0:
-		print('Fizz')
-	elif input % 5 == 0:
-		print('Buzz')
-	else:
-		print(input)
+        c1 = input % 3 == 0
+        c2 = input % 5 == 0
+
+        if c1 or c2: 
+            print(c1*"Fizz"+c2*"Buzz")
+        else:
+                print(input)
 
 
 '''
