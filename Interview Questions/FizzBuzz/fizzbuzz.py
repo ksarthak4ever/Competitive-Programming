@@ -6,7 +6,7 @@ for input in range(1,100): #in this case complexity would be 0(1)
         if c1 or c2: 
             print(c1*"Fizz"+c2*"Buzz")
         else:
-                print(input)
+            print(input)
 
 
 '''
